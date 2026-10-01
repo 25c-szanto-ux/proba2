@@ -21,7 +21,7 @@ A projekt célja [a probléma vagy feladat rövid bemutatása]. Az alkalmazás C
 
 1. Klónozd a repót:
 ```bash
-   git clone https://github.com/felhasznalonev/projekt-neve.git
+  https://github.com/25c-szanto-ux/proba2.git
 ```
 2. Lépj be a projekt mappájába:
 ```bash
