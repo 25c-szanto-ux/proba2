@@ -1,6 +1,6 @@
 # 🚀 Projekt neve
 
-> Kód, ami működik. Legalábbis nálam. 😎
+> Kód, ami működik.
 
 ## Mi ez?
 
