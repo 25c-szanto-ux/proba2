@@ -1,32 +1,41 @@
-# 🚀 Projekt neve
+# Projekt neve
 
-> Kód, ami működik.
+Rövid, egymondatos leírás arról, hogy mit csinál a program.
 
-## Mi ez?
+## Leírás
 
-Egy projekt, amit éjszaka 2-kor kezdtem el, mert "csak egy gyors ötlet volt". Azóta eltelt pár hét, a kávéfogyasztásom megduplázódott, de a cucc fut!
+A projekt célja [a probléma vagy feladat rövid bemutatása]. Az alkalmazás C# nyelven készült, konzolos felülettel.
 
-## Mit tud?
+## Funkciók
 
-- ⚡ Gyors, mint a villám (jó, nem mindig)
-- 🧠 Okosabb, mint amilyennek kinéz
-- 🐛 Bugok? Nem bugok, hanem rejtett funkciók!
+- Első funkció rövid leírása
+- Második funkció rövid leírása
+- Harmadik funkció rövid leírása
 
-## Hogyan indítsd el?
+## Követelmények
 
-1. Töltsd le a repót
-2. Nyisd meg a projektet
-3. Nyomd meg a Start gombot
-4. Imádkozz egy kicsit 🙏
+- .NET SDK 8.0 vagy újabb
+- Visual Studio 2022 vagy Visual Studio Code
 
-## Közreműködés
+## Telepítés és futtatás
 
-Találtál hibát? Szuper, nyiss egy Issue-t! Van jobb ötleted? Küldj egy Pull Requestet! Csak légy kedves, a kód érzékeny lélek.
+1. Klónozd a repót:
+```bash
+   git clone https://github.com/felhasznalonev/projekt-neve.git
+```
+2. Lépj be a projekt mappájába:
+```bash
+   cd projekt-neve
+```
+3. Futtasd az alkalmazást:
+```bash
+   dotnet run
+```
 
-## Készítette
+## Használat
 
-Egy diák, aki még tanul, de már vagány kódot ír. 💻
+Az indítás után a program menüt jelenít meg, ahol a megfelelő szám beírásával választhatsz a funkciók közül.
 
----
+## Licenc
 
-⭐ Ha tetszett, adj egy csillagot, a kódom hálás lesz érte!
+Ez a projekt az MIT licenc alatt érhető el.
