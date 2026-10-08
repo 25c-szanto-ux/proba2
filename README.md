@@ -1,120 +1,52 @@
-# 🚀 Project Name
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status: Active" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version: 1.0.0" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" />
-  <img src="https://img.shields.io/badge/Platform-Web%20%7C%20API-orange?style=for-the-badge" alt="Platform: Web / API" />
-</p>
-
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Project preview" width="100%" />
-</p>
-
-A modern, polished, and scalable solution built to help teams work smarter, ship faster, and deliver better experiences.
-
-## ✨ Why this project?
-
-- Built for speed and simplicity
-- Clean developer experience
-- Easy to extend and customize
-- Designed for modern workflows
-
-## 🌟 Key Features
-
-- Fast onboarding and setup
-- Responsive and accessible UI
-- Secure API-ready architecture
-- Modular and maintainable codebase
-- Clear documentation and examples
-
-## 🛠️ Tech Stack
-
-- TypeScript
-- React
-- Node.js
-- PostgreSQL
-- Docker
-- Tailwind CSS
-
-## 📦 Project Structure
-
-```bash
-project-root/
-├── app/
-│   ├── components/
-│   ├── pages/
-│   └── styles/
-├── api/
-│   ├── routes/
-│   └── controllers/
-├── lib/
-├── public/
-├── tests/
-├── .env.example
-├── package.json
-├── README.md
-└── docker-compose.yml
+# Victor Wembanyama – interaktív rajongói oldal 👽
+ 
+Egyetlen HTML fájlból álló, interaktív weboldal Victor Wembanyamáról, a San Antonio Spurs francia kosarasáról. Sötét, kosárlabdás stílus, Bootstrap 5-tel és saját JavaScripttel.
+ 
+> Nem hivatalos rajongói oldal. Nincs kapcsolatban Wembanyamával, az NBA-vel vagy a Spurs-szal.
+ 
+## Mit tud az oldal?
+ 
+| Rész | Leírás |
+|---|---|
+| **Hero** | Címsor és Spurs-mezes fotó, a kép széle elhalványul a háttérbe |
+| **Mérd magad hozzá** | Csúszkával beállítod a magasságod, az oldal kirajzolja a különbséget Wembanyához (224 cm) képest |
+| **Számok** | Négy kártya, amelyekre kattintva megfordulnak. A számok felfutnak betöltéskor |
+| **Galéria** | Trófeás fotó és egy rajongói grafika, utóbbi alatt pontosító felirattal |
+| **Blokkolós játék** | 20 másodperces minijáték: a felbukkanó labdákra kell kattintani, mielőtt eltűnnek. Számolja a blokkokat, a kihagyottakat és a rekordot |
+| **Az útja** | Bootstrap harmonika: francia kezdetek, 2023-as draft, újonc év, olimpia, sérülés |
+| **Furcsaságok** | Bootstrap fülek: pályán, pályán kívül, becenevek |
+| **Kvíz** | 5 kérdéses feleletválasztós teszt pontszámmal |
+| **Lábléc** | Csapatünneplős fotó az oldal alján |
+ 
+## Használt technológiák
+ 
+- **HTML5 + CSS3** egyedi stílussal (CSS változók, 3D kártyaforgatás, animációk)
+- **[Bootstrap 5.3.3](https://getbootstrap.com/)**: rács, harmonika, fülek, gombok, progress bar, sötét téma
+- **Vanilla JavaScript**: magasságmérő, számlálók, játék, kvíz (külső könyvtár nélkül)
+- **Google Fonts**: Anton (címsorok) és Barlow (szöveg)
+## Futtatás
+ 
+Nincs telepítés és build lépés.
+ 
+1. Töltsd le a `wembanyama.html` fájlt.
+2. Nyisd meg bármelyik böngészőben.
+Ha GitHub Pages-en szeretnéd kiadni, nevezd át `index.html`-re, majd a repo **Settings → Pages** menüjében válaszd ki a főágat.
+ 
+## Fontos tudnivalók
+ 
+- A **Bootstrap CSS és JS be van ágyazva** a fájlba, és a **képek is base64-ként vannak benne**, ezért a fájl nagy (kb. 0,8 MB), viszont egyetlen fájlként bárhová átvihető, és internet nélkül is működik. Kivétel a két Google betűtípus: ezek nélkül az oldal tartalék betűtípusokra vált.
+- A **számok megközelítőleg értendők**. A galériában lévő rajongói grafikán szereplő 7'7" és 8'3" eltúlzott, a hivatalos magasság kb. 224 cm.
+- A képek szerzői jogai a jogtulajdonosokat illetik. Publikus használat előtt ellenőrizd, hogy felhasználhatod-e őket.
+## Egyszerű módosítások
+ 
+- **Kvíz kérdései:** a szkriptben a `Q` tömb. Egy kérdés formája: `["Kérdés?", ["válasz1","válasz2","válasz3","válasz4"], helyesIndex]`.
+- **Játék hossza:** a `left=20` érték és a `20` másodperc a játék szkriptben.
+- **Színek:** a `<style>` elején a `:root` változói (`--hot`, `--ice`, `--silver`).
+- **Új kártya:** másolj ki egy `.flip` blokkot a „Számok" szekcióban, és írd át a szöveget.
+## Fájlok
+ 
 ```
-
-## 🚀 Getting Started
-
-### 1) Clone the repository
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+wembanyama.html   – a teljes oldal (HTML, CSS, JS, Bootstrap és képek)
+README.md         – ez a leírás
 ```
-
-### 2) Install dependencies
-
-```bash
-npm install
-```
-
-### 3) Configure environment
-
-```bash
-cp .env.example .env
-```
-
-### 4) Run the app
-
-```bash
-npm run dev
-```
-
-Open your browser and visit `http://localhost:3000`.
-
-## 📈 Roadmap
-
-- [x] Core architecture
-- [x] Basic dashboard
-- [x] Authentication flow
-- [x] API integration
-- [ ] Advanced analytics
-- [ ] Multi-user roles
-- [ ] Mobile app support
-
-## 🤝 Contributing
-
-Contributions are welcome! If you want to improve the project:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## ⭐ Support
-
-If this project helps you, give it a star and share it with others.
-
----
-
-<p align="center">
-  <b>Built with ❤️ for a better developer experience.</b>
-</p>
+ 
