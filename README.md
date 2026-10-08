@@ -36,3 +36,5 @@ A projekt célja [a probléma vagy feladat rövid bemutatása]. Az alkalmazás C
 
 Az indítás után a program menüt jelenít meg, ahol a megfelelő szám beírásával választhatsz a funkciók közül.
 d a d aw adadaddadadadddwadwadad
+
+Ez a projekt az MIT licenc alatt érhető 
