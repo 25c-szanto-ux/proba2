@@ -1,8 +1,7 @@
-# Victor Wembanyama – interaktív rajongói oldal 👽
+# Victor Wembanyama👽
  
 Egyetlen HTML fájlból álló, interaktív weboldal Victor Wembanyamáról, a San Antonio Spurs francia kosarasáról. Sötét, kosárlabdás stílus, Bootstrap 5-tel és saját JavaScripttel.
  
-> Nem hivatalos rajongói oldal. Nincs kapcsolatban Wembanyamával, az NBA-vel vagy a Spurs-szal.
  
 ## Mit tud az oldal?
  
