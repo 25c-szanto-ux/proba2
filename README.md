@@ -38,4 +38,4 @@ Az indítás után a program menüt jelenít meg, ahol a megfelelő szám beír�
 
 ## Licenc
 
-Ez a projekt az MIT licenc alatt érhető el.
+Ez a projekt az MIT licenc alatt érhető 
