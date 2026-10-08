@@ -1,17 +1,38 @@
-# Konzolos alapfeladatok
+# Projekt neve
 
-A program négy egyszerű konzolos feladatot old meg: négy szöveg kötőjeles kiírását, Jani kedvenc gyümölcsének kitalálását, egy téglalap területének és kerületének kiszámítását, valamint egy vizsgaeredmény értékelését.
+Rövid, egymondatos leírás arról, hogy mit csinál a program.
+
+## Leírás
+
+A projekt célja [a probléma vagy feladat rövid bemutatása]. Az alkalmazás C# nyelven készült, konzolos felülettel.
+
+## Funkciók
+
+- Első funkció rövid leírása
+- Második funkció rövid leírása
+- Harmadik funkció rövid leírása
 
 ## Követelmények
 
-- .NET 8 SDK vagy újabb
+- .NET SDK 8.0 vagy újabb
+- Visua Studio 2022 vagy Visual Studio Code
 
-## Futtatás
+## Telepítés és futtatás
 
-A projekt mappájában futtasd:
-
+1. Klónozd a repót:
 ```bash
-dotnet run
+  https://github.com/25c-szanto-ux/proba2.git
+```
+2. Lépj be a projekt mappájába:
+```bash
+   cd projekt-neve
+```
+3. Futtasd az alkalmazást:
+```bash
+   dotnet run
 ```
 
-A program a szöveges válaszokat, a téglalap oldalhosszait és a vizsgaeredményt kéri be egymás után. A számok magyar formátumban adhatók meg, a téglalap eredményei két tizedesjeggyel jelennek meg.
+## Használat
+
+Az indítás után a program menüt jelenít meg, ahol a megfelelő szám beírásával választhatsz a funkciók közül.
+d a d aw adadaddadadadddwadwadad
